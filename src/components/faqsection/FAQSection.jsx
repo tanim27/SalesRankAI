@@ -5,7 +5,7 @@ import { useState } from 'react'
 const faqData = [
 	{
 		id: '01',
-		question: 'Why should i choose Humestic?',
+		question: 'Why should I choose Humestic?',
 		answer: `Bottleneck mice my capacity is full, nor incentivization we need to start advertising on social media, or helicopter view, for what the. Let's put a pin in that we need to build it so that it scales, are there any leftovers in the kitchen?, if you're not hurting you're not winning loop back`,
 	},
 	{
@@ -28,8 +28,8 @@ const FAQSection = () => {
 	}
 
 	return (
-		<div className='max-w-[1920px] w-full px-4 sm:px-6 md:px-10 flex flex-col justify-center items-center'>
-			<div className='w-full max-w-[1441.62px] h-[643px] flex flex-col justify-center items-center gap-10 md:gap-[80px] pb-10'>
+		<div className='max-w-[1920px] w-full px-4 sm:px-6 md:px-10 flex flex-col justify-center items-center overflow-x-hidden'>
+			<div className='w-full max-w-[1441.62px] flex flex-col justify-center items-center gap-10 md:gap-[80px] pb-10'>
 				<div className='w-full flex flex-col lg:flex-row justify-center lg:items-start items-center gap-6 lg:gap-[80px] text-center lg:text-left'>
 					<p className='text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] text-[#001C4A] font-normal w-full lg:w-[280px]'>
 						Frequently asked questions
@@ -40,14 +40,14 @@ const FAQSection = () => {
 					</h2>
 				</div>
 
-				<div className='w-full max-w-[1441.62px] flex flex-col items-start gap-6 md:gap-[40px]'>
+				<div className='w-full flex flex-col items-start gap-6 md:gap-[40px]'>
 					{faqData.map((item, index) => (
 						<div
 							key={index}
 							className='w-full border-b border-[#CCCCCC] pb-6 md:pb-[20px]'
 						>
 							<div
-								className='flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-[40px] cursor-pointer'
+								className='flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-[40px] cursor-pointer flex-wrap'
 								onClick={() => toggleAccordion(index)}
 							>
 								<p className='text-[24px] sm:text-[28px] md:text-[32px] text-[#8B7D4C] font-normal'>
