@@ -24,8 +24,8 @@ const HeroSection = () => {
 					</div>
 
 					<div className='flex flex-col sm:flex-row gap-8 mt-20'>
-						<div className='flex items-center gap-4 bg-white shadow-lg rounded-[15.57px] p-4 w-full sm:w-[288px]'>
-							<div className='w-[89px] h-[86.78px] flex items-center justify-center bg-white rounded-[15.57px]'>
+						<div className='flex items-center gap-4 p-4 w-full sm:w-[288px]'>
+							<div className='w-[89px] h-[86.78px] flex items-center justify-center bg-white shadow-lg rounded-[15.57px]'>
 								<img
 									src='/images/signature1.png'
 									alt='signature1'
@@ -42,8 +42,8 @@ const HeroSection = () => {
 							</div>
 						</div>
 
-						<div className='flex items-center gap-4 bg-white shadow-lg rounded-[15.57px] p-4 w-full sm:w-[294px]'>
-							<div className='w-[89px] h-[86.78px] flex items-center justify-center bg-white rounded-[15.57px]'>
+						<div className='flex items-center gap-4 p-4 w-full sm:w-[294px]'>
+							<div className='w-[89px] h-[86.78px] flex items-center justify-center bg-white shadow-lg rounded-[15.57px]'>
 								<img
 									src='/images/signature2.png'
 									alt='signature2'
